@@ -6,11 +6,13 @@ while running:
  	if guess == number:
  		print('Congratulations, you guess it.')
  		running = False
+ 		print('The while loop is over.')
  	elif guess < number:
  		print('No,it is a little higher than that')
  	else:
  		print('No,it is a little lower than that')
 else:
-	print('The while loop is over.')
+	pass
+	#print('The while loop is over.')
 
 print('Done')
